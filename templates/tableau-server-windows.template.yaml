@@ -708,6 +708,10 @@ Resources:
               - DefaultConfiguration
               - MachineConfiguration
               - SystemVolumeSize
+        - DeviceName: /dev/sdm
+          Ebs:
+            VolumeType: gp2
+            VolumeSize: 300
       EbsOptimized: true
       KeyName: !Ref 'KeyPairName'
       Tags:
