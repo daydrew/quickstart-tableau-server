@@ -159,7 +159,7 @@ Parameters:
   LatestAmiId:
     Description: Latest Windows Server 2019 AMI ID from SSM Parameter Store.
     Type: 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
-    Default: '/aws/service/ami-windows-latest/Windows_Server-2019-English-Full-Base'
+    Default: '/aws/service/ami-windows-latest/Windows_Server-2019-English-STIG-Full'
   TableauServerAdminPassword:
     Description: The password of the initial administrator for Tableau Server
     MinLength: '1'
